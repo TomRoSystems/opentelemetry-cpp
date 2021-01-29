@@ -15,8 +15,9 @@
 
 #include <gtest/gtest.h>
 
+#include "opentelemetry/ext/trace-propagators/b3_propagator.h"
+
 #include "opentelemetry/trace/default_span.h"
-#include "opentelemetry/trace/propagation/b3_propagator.h"
 #include "opentelemetry/trace/propagation/http_text_format.h"
 
 using namespace opentelemetry;
